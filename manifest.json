@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+
+  "name": "Youtube no pub",
+  "description": "This extension remove pub on youtube",
+  "version": "1.0.2",
+
+  "content_scripts": [
+    {
+      "js": ["changeUrlPlayer.js"],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
